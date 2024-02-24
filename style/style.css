@@ -621,6 +621,10 @@ footer a {
         display: flex;
     }
 
+    aside {
+        display: none;
+    }
+
     .jumbotron {
         margin-left: 1rem;
         margin-top: -50px;
