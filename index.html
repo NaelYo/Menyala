@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menyala</title>
+    <!-- My Style -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Icon -->
+    <link rel="icon" href="img/icon.png">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo corp">
+            </div>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#toko">Toko</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+
+            <div class="menu-toggle">
+                <input type='checkbox' id="input">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <article class="jumbotron">
+                <div class="jumbotron-desc">
+                    <h1 class="judul-hero">Menyala Corp</h1>
+                    <p> Kami yakin anda akan sulit untuk menyalakan api disaat situasi genting, karena menyalakan
+                        api tidak hanya sekali menjentikkan tangan, untuk itu <span
+                            style="color: #f3740d; font-weight: bold;">Menyala</span><span
+                            style="color: #666; font-weight: bold;"> Corp</span> hadir untuk membantu anda yang
+                        kesulitan menyalakan api disaat genting, dengan produk yang hand friendly memudahkan anda
+                        untuk membawanya kemana saja</p>
+                    <div class="wrap">
+                        <a href="#toko"><button class="button">Dapatkan Sekarang</button></a>
+                    </div>
+                </div>
+                <div class="jumbotron-img">
+                    <img src="img/hero.png" alt="">
+                </div>
+            </article>
+
+            <aside>
+                <img src="img/Api.png" alt="">
+            </aside>
+
+            <article class="tentang" id="tentang">
+                <div class="tentang-desc">
+                    <h1 class="judul">Tentang Kami</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos molestias animi voluptatum
+                        quia minus eum ex quos architecto deserunt in, adipisci suscipit dolorem quae commodi asperiores
+                        praesentium sit amet iure quidem, sequi mollitia. Consequuntur molestias iure voluptatibus?
+                        Exercitationem sunt asperiores molestiae veniam assumenda ipsam, laudantium natus eos fugit
+                        officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus totam
+                        voluptatem nesciunt, quia ullam temporibus eveniet amet earum libero obcaecati, soluta
+                        consectetur animi doloribus harum nobis id excepturi aperiam! Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Dolores adipisci ullam quo nesciunt, obcaecati iste! Quia odit
+                        nesciunt animi voluptas?</p>
+                </div>
+
+                <div class="tentang-img">
+                    <img src="img/korek.png" alt="Korek Menyala">
+                </div>
+            </article>
+
+            <article class="toko" id="toko">
+                <div class="toko-desc">
+                    <h1 class="judul">Toko</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae reiciendis cumque soluta!
+                        Mollitia hic nostrum eligendi pariatur? Reiciendis officiis voluptates aut quaerat ratione
+                        fugiat vel, molestiae autem, consequuntur quis maiores.</p>
+                </div>
+
+                <div class="produk-toko">
+                    <section class="produk">
+                        <img src="img/korek.png" alt="">
+                        <h1>Menyala Small</h1>
+                        <h3>IDR 2000,00</h3>
+                        <button class="beli">Beli Sekarang</button>
+                    </section>
+                    <section class="produk">
+                        <img src="img/korek.png" alt="">
+                        <h1>Menyala Medium</h1>
+                        <h3>IDR 3000,00</h3>
+                        <button class="beli">Beli Sekarang</button>
+                    </section>
+                    <section class="produk">
+                        <img src="img/korek.png" alt="">
+                        <h1>Menyala Large</h1>
+                        <h3>IDR 5000,00</h3>
+                        <button class="beli">Beli Sekarang</button>
+                    </section>
+                </div>
+            </article>
+
+            <article class="kontak" id="kontak">
+                <h1 class="judul">Hubungi Kami</h1>
+
+                <div class="container">
+
+                    <div class="card-container">
+                        <div class="hubungi">
+                            <div class="hubungi-container">
+                                <form action="">
+                                    <input type="text" placeholder="Nama">
+                                    <input type="email" placeholder="Alamat Email">
+                                    <input type="text" placeholder="Perusahaan" autocomplete="off">
+                                    <input type="phone" placeholder="Telepone" autocomplete="off">
+                                    <textarea rows="10" placeholder="Pesan"></textarea>
+                                </form>
+                                <button class="kontak-kirim">Kirim</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+
+            <footer>
+                <p>Design By Nathanael, 2024</p>
+                <div class="icon">
+                    <a href="#"><i data-feather="instagram"></i></a>
+                    <a href="#"><i data-feather="facebook"></i></a>
+                    <a href="#"><i data-feather="shopping-bag"></i></a>
+                </div>
+            </footer>
+        </div>
+    </main>
+    <script>feather.replace();</script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
