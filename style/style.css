@@ -582,7 +582,16 @@ footer a {
 }
 
 /* Mobile */
-@media screen and (max-width: 575.98px) {
+@media screen and (max-width: 768px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+        position: relative;
+    }
 
     header nav {
         z-index: 9999;
