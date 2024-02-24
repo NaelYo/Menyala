@@ -553,7 +553,7 @@ footer a {
 /* Responsive View */
 
 /* Tablet */
-@media screen and (max-width: 862px) {
+@media screen and (max-width: 820px) {
     header nav ul li a {
         padding: 1rem 1rem;
     }
@@ -582,7 +582,7 @@ footer a {
 }
 
 /* Mobile */
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 360px) {
 
     header nav {
         z-index: 9999;
